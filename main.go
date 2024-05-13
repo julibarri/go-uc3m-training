@@ -1,11 +1,10 @@
 package main
 
 import (
-	"fmt"
-	"github.com/julibarri/hello_world"
+	"github.com/julibarri/go-uc3m-training/hello_world"
 )
 
 
 func main() {
-	HelloWorld()
+	hello_world.HelloWorld()
 }

@@ -1,4 +1,4 @@
-package hello_world
+package helloworld
 
 import (
 	"flag"
@@ -14,7 +14,6 @@ var helloWorld bool
 
 func init () {
 	flag.BoolVar(&helloWorld, "hello-world", false, "Run or not Hello World.")
-	flag.Parse()
 }
 
 func HelloWorld() int {
